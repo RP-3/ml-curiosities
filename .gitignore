@@ -1,2 +1,12 @@
-*/data/*
+# Ignore everything in all 'data' directories at any depth
+**/data/**
+
+# Unignore the 'data' directories themselves (but not their contents)
+!**/data/
+
+# Unignore 'readme.md' files in any 'data' directory
+!**/data/**/readme.md
+
+# Ignore other files
 Pipfile.lock
+.DS_Store
