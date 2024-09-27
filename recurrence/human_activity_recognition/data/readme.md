@@ -14,7 +14,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ### Attribute information
 
-- For each record in the dataset the following is provided:
+For each record in the dataset the following is provided:
+
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope.
 - A 561-feature vector with time and frequency domain variables.
